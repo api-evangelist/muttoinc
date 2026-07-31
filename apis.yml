@@ -1,7 +1,24 @@
 aid: muttoinc
-name: muttoinc
-description: muttoinc is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/muttoinc.png
+name: Mutto Optronics
+description: Mutto Optronics (Mutto Inc) is a Taipei, Taiwan-based provider of resistive
+  and capacitive touch panels for the mobile phone and tablet market. Formerly a Qiming
+  Venture Partners portfolio company, it is now publicly held. It is a hardware/optronics
+  manufacturer with no public API, developer program, or documented software surface.
+  The registered domain (muttoinc.com) has lapsed and now resolves to a domain-parking
+  and ad-monetization landing page across all hosts, so there is no first-party
+  developer, docs, or API infrastructure to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/muttoinc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,19 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
+x-api-surface-reason: hardware manufacturer (touch panels); domain parked, no API/docs/developer
+  hosts serve real content
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Hardware
+- Touch Panels
+- Optronics
+- Consumer Electronics
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://muttoinc.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
